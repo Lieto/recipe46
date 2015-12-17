@@ -1,5 +1,5 @@
 import unittest
-from ShoppingCart import *
+from cart import *
 
 
 class CartWithOneItem(unittest.TestCase):
@@ -64,3 +64,4 @@ class CartWithNoItems(unittest.TestCase):
 if __name__ == "__main__":
     import nose
     nose.run(argv=["", "recipe11", "--verbosity=2"])
+
